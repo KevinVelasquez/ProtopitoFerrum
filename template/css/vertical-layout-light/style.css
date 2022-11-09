@@ -25557,3 +25557,20 @@ font-size: large;
   margin-bottom: 0%;
 }
 
+
+.videoayuda{
+  width: 50%;
+}
+.col-sm{
+text-align: center;
+}
+#tituloinicial{
+  margin-left: 40%;
+  width: 30%;
+  color: white;
+}
+
+.content-wrapper {
+  flex-grow:0;
+}
+
