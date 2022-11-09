@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FERRUM</title>
+    <!-- base:css -->
+    <link rel="stylesheet" href="/template/vendors/typicons.font/font/typicons.css">
+    <link rel="stylesheet" href="/template/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/template/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="/template/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="shortcut icon" href="/template/images/favicon.png" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html"><img
+                        src="/template/images/LOGO LAS MARCAS TINTO-1.png" alt="logo" id="logo"></a>
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/template/images/logo-mini.svg"
+                        alt="logo" /></a>
+                <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button"
+                    data-toggle="minimize">
+                    <span class="typcn typcn-th-menu"></span>
+                </button>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown d-flex">
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
+                            aria-labelledby="messageDropdown">
+                            <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="/template/images/faces/face4.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal">David Grey
+                                    </h6>
+                                    <p class="font-weight-light small-text mb-0">
+                                        The meeting is cancelled
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="/template/images/faces/face2.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal">Tim Cook
+                                    </h6>
+                                    <p class="font-weight-light small-text mb-0">
+                                        New product launch
+                                    </p>
+                                </div>
+                            </a>
+                            <a class="dropdown-item preview-item">
+                                <div class="preview-thumbnail">
+                                    <img src="/template/images/faces/face3.jpg" alt="image" class="profile-pic">
+                                </div>
+                                <div class="preview-item-content flex-grow">
+                                    <h6 class="preview-subject ellipsis font-weight-normal"> Johnson
+                                    </h6>
+                                    <p class="font-weight-light small-text mb-0">
+                                        Upcoming board meeting
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item d-none d-lg-flex  mr-2">
+                        <a class="nav-link" href="/../../index.html">
+                            Ayuda
+                        </a>
+                    </li>
+                    <li class="nav-item nav-profile dropdown">
+                        <a class="nav-link dropdown-toggle  pl-0 pr-0" href="#" data-toggle="dropdown"
+                            id="profileDropdown">
+                            <img src="/template/images/faces/face29.png" alt="image">
+                            <span class="nav-profile-name">Santiago Valencia</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
+                            aria-labelledby="profileDropdown">
+                            <a class="dropdown-item">
+                                <i class="mdi mdi-face text-primary"></i>
+                                Perfil
+                            </a>
+                            <a class="dropdown-item">
+                                <i class="typcn typcn-power text-primary"></i>
+                                Cerrar Sesión
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+                    data-toggle="offcanvas">
+                    <span class="typcn typcn-th-menu"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/template/index.html">
+                            <i class="mdi mdi-settings menu-icon"></i>
+                            <span class="menu-title">Configuración</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/template/pages/Vistas/Usuarios.html">
+                            <i class="mdi mdi-account-circle menu-icon"></i>
+                            <span class="menu-title">Usuarios</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <i class="mdi mdi-wallet-travel menu-icon"></i>
+                            <span class="menu-title">Compras</span>
+                            <i class="typcn typcn-chevron-right menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="ui-basic">
+                            <ul class="nav flex-column ">
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="/template/pages/Vistas/Proveedores/Proveedores.html">Proveedores</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="pages/ui-features/dropdowns.html">Insumos</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="pages/ui-features/typography.html">Ordenes de Compra</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false"
+                            aria-controls="form-elements">
+                            <i class="mdi mdi-trending-up menu-icon"></i>
+                            <span class="menu-title">Ventas</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="form-elements">
+                            <ul class="nav flex-column ">
+                                <li class="nav-item"><a class="nav-link"
+                                        href="/template/pages/Vistas/Clientes/Clientes.html">Clientes</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="/template/pages/Vistas/Productos.html">Productos</a></li>
+                                <li class="nav-item"><a class="nav-link"
+                                        href="pages/forms/basic_elements.html">Pedidos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false"
+                            aria-controls="charts">
+                            <i class="mdi mdi-square-inc-cash menu-icon"></i>
+                            <span class="menu-title">Pagos</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="charts">
+                            <ul class="nav flex-column">
+                                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Pago
+                                        Clientes</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Pago
+                                        Proveedores</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false"
+                            aria-controls="tables">
+                            <i class="mdi mdi-panorama menu-icon"></i>
+                            <span class="menu-title">Figuras Predefinidas</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/template/pages/Vistas/Dashboard.html">
+                            <i class="mdi mdi-google-analytics menu-icon"></i>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-sm-6" id="tituloinicial">
+                            <h3 class="mb-0 font-weight-bold">Proveedores</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-sm-8">
+                        <div class="iconoInicial">
+                            <a href="./RegistrarProveedor.html"><i class="mdi mdi-account-multiple-plus-outline"
+                                    id="iconoadd"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="buscar">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Buscar"
+                                    aria-label="Search">
+                                <i class="mdi mdi-magnify" id="lupa"></i>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="table-responsive pt-3">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Cédula/Nit/Rut
+                                </th>
+                                <th>
+                                    Teléfono
+                                </th>
+                                <th>
+                                    Dirección
+                                </th>
+                                <th>
+                                    Correo
+                                </th>
+                                <th>
+                                    Tipo Comercio
+                                </th>
+                                <th>
+                                    Estado
+                                </th>
+                                <th>
+                                    Saldo Pendiente
+                                </th>
+                                <th>
+                                    Acciones
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Keila
+                                </td>
+                                <td>
+                                    103667045
+                                </td>
+                                <td>
+                                    30193456
+                                </td>
+                                <td>
+                                    Cl 45-34
+                                </td>
+                                <td>
+                                    keilasti@hotmail.com
+                                </td>
+                                <td>
+                                    Mayorista
+                                </td>
+                                <td>
+                                    <img src="/template/images/Activo.jpeg" style="width: 40px; height: 25px;">
+                                </td>
+                                <td>
+                                    300000
+                                </td>
+                                <td>
+
+                                    <!-- Button trigger actualizar -->
+                                    <a href="./ActualizarProveedor.html"><button
+                                            class="mdi mdi-lead-pencil"></button></a>
+                                    <!-- Button trigger modal eliminar -->
+                                    <button type="button" class="mdi mdi-trash-can-outline" data-toggle="modal"
+                                        data-target="#ModalEliminar"></button>
+
+                                    <!-- Button trigger modalvisualizar facturas -->
+                                    <a href="./VisualizaFacturas.html"><button
+                                            class="mdi mdi-format-align-left"></button></a>
+
+
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Lucia
+                                </td>
+                                <td>
+                                    4530343
+                                </td>
+                                <td>
+                                    320874256
+                                </td>
+                                <td>
+                                    Cra 45-34 a 10
+                                </td>
+                                <td>
+                                    Lucia@gmail.com
+                                </td>
+                                <td>
+                                    Mayorista
+                                </td>
+                                <td>
+                                    <img src="/template/images/Inactivo.jpeg" style="width: 40px; height: 25px;">
+                                </td>
+                                <td>
+                                    500000
+                                </td>
+                                <td>
+                                    <!-- Button trigger  actualizar -->
+                                    <a href="./ActualizarProveedor.html"><button
+                                            class="mdi mdi-lead-pencil"></button></a>
+
+                                    <!-- Button trigger modal eliminar -->
+                                    <button type="button" class="mdi mdi-trash-can-outline" data-toggle="modal"
+                                        data-target="#ModalEliminar"></button>
+
+
+                                    <!-- Button trigger modalvisualizar facturas -->
+                                    <button type="button" class="mdi mdi-format-align-left" data-toggle="modal"
+                                        data-target="#ModalVisualizar"></button>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal eliminar proveedor-->
+    <div class="modal fade" id="ModalEliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Proveedor</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h4>¿Está seguro que desea eliminar el proveedor?</h4>
+
+                </div>
+                <div class="modal-footer">
+
+                    <a href="./Proveedores.html" class="btn btn-primary btn-lg active" role="button"
+                        aria-hidden="true">Si</a>
+                    <a href="//Pro" class="btn btn-primary btn-lg active" role="button" data-dismiss="modal">No</a>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal visualizar facturas proveedor-->
+    <div class="modal fade" id="ModalVisualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Facturas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <button class="buscar">Buscar</button>
+                    <div class="table-responsive pt-3">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        N° Factura
+                                    </th>
+                                    <th>
+                                        Fecha
+                                    </th>
+                                    <th>
+                                        Método Pago
+                                    </th>
+                                    <th>
+                                        Estado
+                                    </th>
+                                    <th>
+                                        Acciones
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        0459
+                                    </td>
+                                    <td>
+                                        22/04/22
+                                    </td>
+                                    <td>
+                                        Contado
+                                    </td>
+                                    <td>
+                                        Pendiente
+                                    </td>
+                                    <td>
+
+                                        <!-- Button descargar factura -->
+                                        <button type="button" class="mdi mdi-file-download-outline"></button>
+
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        0460
+                                    </td>
+                                    <td>
+                                        23/04/22
+                                    </td>
+                                    <td>
+                                        Contado
+                                    </td>
+                                    <td>
+                                        Pendiente
+                                    </td>
+                                    <td>
+
+                                        <!-- Button descargar factura -->
+                                        <button type="button" class="mdi mdi-file-download-outline"></button>
+
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <span>Página 1 ..... 6</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal confirmar registro proveedor-->
+    <div class="modal fade" id="Modalconfirmarregistro" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h4>Se ha registrado el proveedor con éxito</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal confirma actualizar proveedor-->
+    <div class="modal fade" id="Modalconfirmaactualizar" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h4>Se ha actualizado el proveedor con éxito</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal  proveedor eliminado -->
+    <div class="modal fade" id="Modalproveedoreliminado" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <h4>Se ha eliminado el proveedor con éxito</h4>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- content-wrapper ends -->
+    <!-- partial:partials/_footer.html -->
+    <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            <span class="text-center text-sm-left d-block d-sm-inline-block">Propiedad de FERRUM ©<a
+                    href="https://www.bootstrapdash.com/"></a> 2020</span>
+        </div>
+    </footer>
+    <!-- partial -->
+    </div>
+    <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- base:js -->
+    <script src="/template/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="/template/js/off-canvas.js"></script>
+    <script src="/template/js/hoverable-collapse.js"></script>
+    <script src="/template/js/template.js"></script>
+    <script src="/template/js/settings.js"></script>
+    <script src="/template/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <script src="/template/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="/template/vendors/chart.js/Chart.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page-->
+    <script src="/template/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>
