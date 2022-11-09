@@ -25506,9 +25506,57 @@ font-size: large;
 .close{
   color: white;
 }
+
+
+/*Cathe*/
+#labelrol{
+  height: 50px;
+  margin-left: 42%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#inputrol{
+  margin-top: -10px;
+  margin-bottom: 20%;
+  margin-left: 40%;
+  width: 200%;
+}
+
+.permisosformu{
+  margin-top: 3%;
+  margin-left: -20%;
+} 
+
+.contenedorPermisos{
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-right: 20%;
+  padding-left: 10%;
+  width: 100%;
+}
+
+
+.mensajeRol{
+  width: 500%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+
+.selector{
+  margin-top: -40px;
+  margin-left: 40%;
+  width: 200%;
+  margin-bottom: 53px;
+  height: 37%;
+}
+
+
 #resumentabla{
   margin-bottom: 0%;
 }
+
 
 .videoayuda{
   width: 50%;
