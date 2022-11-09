@@ -25,9 +25,9 @@
         <!-- partial:partials/_navbar.html -->
         <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-                <a class="navbar-brand brand-logo" href="/template/index.html"><img
+                <a class="navbar-brand brand-logo" href="index.html"><img
                         src="/template/images/LOGO LAS MARCAS TINTO-1.png" alt="logo" id="logo"></a>
-                <a class="navbar-brand brand-logo-mini" href="#"><img src="/template/images/logo-mini.svg"
+                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg"
                         alt="logo" /></a>
                 <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button"
                     data-toggle="minimize">
@@ -125,7 +125,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/usuarios/usuarios.html">
+                        <a class="nav-link" href="/template/pages/usuarios/usuarios.html">
                             <i class="mdi mdi-account-circle menu-icon"></i>
                             <span class="menu-title">Usuarios</span>
                         </a>
@@ -177,101 +177,49 @@
                 </ul>
             </nav>
             <!-- partial -->
-            <div class="main-panel">
+            <div class="main-panel" style="margin: 0;">
                 <div class="content-wrapper">
                     <div class="row">
                         <div class="col-sm-6" id="tituloinicial">
-                            <h3 class="mb-0 font-weight-bold">Perfil</h3>
+                            <h3 class="mb-0 font-weight-bold">Ayudas</h3>
                         </div>
                     </div>
                 </div>
-                <div class="container mt-5">
-                    <form action="contact.php" method="post">
-                        <div class="row">
-                            <div class="col-sm">
-
-                            </div>
-                            <div class="col-sm">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Nombre</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="Catherin">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Cédula</label>
-                                    <input type="text" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="1030450211">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Email</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                                        placeholder="Cataristizabal@misena.edu.co">
-                                </div>
-                            </div>
-                            <div class="col-sm">
-
+                <div class="container" style="margin-top: 5%">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div><img
+                                    src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+                                    class="videoayuda">
+                                <br>
+                                <b>CONFIGURACIÓN</b>
+                                <br>
+                                Creación de roles y permisos.
                             </div>
                         </div>
-                    </form>
-                    <div class="content-wrapper">
-                        <div class="row">
-                            <div class="col-sm-6" id="tituloinicial2">
-                                <h3 class="mb-0 font-weight-bold">Cambiar Contraseña</h3>
+                        <div class="col-sm">
+                            <div><img
+                                    src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+                                    class="videoayuda">
+                                <br>
+                                <b>USUARIOS</b>
+                                <br>
+                                Creación de usuarios y asignacion de permisos y roles.
                             </div>
                         </div>
-                    </div>
-                    <form action="contact.php" method="post">
-                        <div class="row">
-                            <div class="col-sm">
-
+                        <div class="col-sm">
+                            <div><img
+                                    src="https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc"
+                                    class="videoayuda">
+                                <br>
+                                <b>COMPRAS</b>
+                                <br>
+                                Administración del modulo de compras navegando en cada opcion del submenú.
                             </div>
-                            <div class="col-sm">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Contraseña Actual</label>
-                                    <input type="password" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Nueva Contraseña</label>
-                                    <input type="password" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Confirmar Contraseña</label>
-                                    <input type="password" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                                <div class="parbotones">
-                                    <a class="btn btn-primary btn-lg active" data-toggle="modal"
-                                        data-target="#exampleModalCenter" id="botons" role="button"
-                                        aria-pressed="true">Actualizar</a>
-                                    <a href="/template/index.html" class="btn btn-primary btn-lg active" id="botons2"
-                                        role="button" aria-pressed="true">Cancelar</a>
-                                </div>
-                            </div>
-                            <div class="col-sm">
-
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            ¡Se ha actualizado el Perfil con éxito!
-                        </div>
-                        <div class="modal-footer">
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
     <!-- content-wrapper ends -->
@@ -290,23 +238,23 @@
     </div>
     <!-- container-scroller -->
     <!-- base:js -->
-    <script src="/template/vendors/js/vendor.bundle.base.js"></script>
+    <script src="vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
     <!-- End plugin js for this page-->
     <!-- inject:js -->
-    <script src="/template/js/off-canvas.js"></script>
-    <script src="/template/js/hoverable-collapse.js"></script>
-    <script src="/template/js/template.js"></script>
-    <script src="/template/js/settings.js"></script>
-    <script src="/template/js/todolist.js"></script>
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/todolist.js"></script>
     <!-- endinject -->
     <!-- plugin js for this page -->
-    <script src="/template/vendors/progressbar.js/progressbar.min.js"></script>
-    <script src="/template/vendors/chart.js/Chart.min.js"></script>
+    <script src="vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="vendors/chart.js/Chart.min.js"></script>
     <!-- End plugin js for this page -->
     <!-- Custom js for this page-->
-    <script src="/template/js/dashboard.js"></script>
+    <script src="js/dashboard.js"></script>
     <!-- End custom js for this page-->
 </body>
 
