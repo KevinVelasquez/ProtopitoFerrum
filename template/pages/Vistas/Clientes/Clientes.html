@@ -79,7 +79,7 @@
                         </div>
                     </li>
                     <li class="nav-item d-none d-lg-flex  mr-2">
-                        <a class="nav-link" href="/../../index.html">
+                        <a class="nav-link" href="#">
                             Ayuda
                         </a>
                     </li>
@@ -91,13 +91,13 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown"
                             aria-labelledby="profileDropdown">
-                            <a class="dropdown-item">
+                            <a class="dropdown-item" href="/template/pages/Vistas/perfil.html">
                                 <i class="mdi mdi-face text-primary"></i>
                                 Perfil
                             </a>
-                            <a class="dropdown-item">
+                            <a class="dropdown-item" href="/template/login.html">
                                 <i class="typcn typcn-power text-primary"></i>
-                                Cerrar Sesión
+                                Cerar Sesión
                             </a>
                         </div>
                     </li>
@@ -133,14 +133,11 @@
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column ">
+                                <li class="nav-item"> <a class="nav-link" href="/template/pages/Vistas/Proveedores/Proveedores.html">Proveedores</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Insumos</a></li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="/template/pages/Vistas/Proveedores/Proveedores.html">Proveedores</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/dropdowns.html">Insumos</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/typography.html">Ordenes de Compra</a>
-                                </li>
+                                        href="/template/pages/Vistas/Ordenes.html">Ordenes de
+                                        Compra</a></li>
                             </ul>
                         </div>
                     </li>
@@ -153,12 +150,9 @@
                         </a>
                         <div class="collapse" id="form-elements">
                             <ul class="nav flex-column ">
-                                <li class="nav-item"><a class="nav-link"
-                                        href="/template/pages/Vistas/Clientes/Clientes.html">Clientes</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="/template/pages/Vistas/Productos.html">Productos</a></li>
-                                <li class="nav-item"><a class="nav-link"
-                                        href="pages/forms/basic_elements.html">Pedidos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/template/pages/Vistas/Clientes/Clientes.html">Clientes</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Productos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Pedidos</a></li>
                             </ul>
                         </div>
                     </li>
@@ -171,22 +165,19 @@
                         </a>
                         <div class="collapse" id="charts">
                             <ul class="nav flex-column">
-                                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Pago
-                                        Clientes</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">Pago
-                                        Proveedores</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="./clientes.html">Pago Clientes</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#">Pago Proveedores</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false"
-                            aria-controls="tables">
+                        <a class="nav-link" href="/template/pages/Vistas/Figuras.html">
                             <i class="mdi mdi-panorama menu-icon"></i>
                             <span class="menu-title">Figuras Predefinidas</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/template/pages/Vistas/Dashboard.html">
+                        <a class="nav-link" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="icons">
                             <i class="mdi mdi-google-analytics menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
@@ -198,14 +189,14 @@
                 <div class="content-wrapper">
                     <div class="row">
                         <div class="col-sm-6" id="tituloinicial">
-                            <h3 class="mb-0 font-weight-bold">Proveedores</h3>
+                            <h3 class="mb-0 font-weight-bold">Clientes</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row w-100">
                     <div class="col-sm-8">
                         <div class="iconoInicial">
-                            <a href="./RegistrarProveedor.html"><i class="mdi mdi-account-multiple-plus-outline"
+                            <a href="./RegistrarCliente.html"><i class="mdi mdi-account-multiple-plus-outline"
                                     id="iconoadd"></i></a>
                         </div>
                     </div>
@@ -219,8 +210,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="table-responsive pt-3">
                     <table class="table table-bordered">
                         <thead>
@@ -229,7 +218,10 @@
                                     Nombre
                                 </th>
                                 <th>
-                                    Cédula/Nit/Rut
+                                    Cedula/Nit/Rut
+                                </th>
+                                <th>
+                                    Tipo Persona
                                 </th>
                                 <th>
                                     Teléfono
@@ -239,9 +231,6 @@
                                 </th>
                                 <th>
                                     Correo
-                                </th>
-                                <th>
-                                    Tipo Comercio
                                 </th>
                                 <th>
                                     Estado
@@ -257,64 +246,55 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    Keila
+                                    Javier Correa
                                 </td>
                                 <td>
-                                    103667045
+                                    1036670343
                                 </td>
                                 <td>
-                                    30193456
+                                    Simplificado
                                 </td>
                                 <td>
-                                    Cl 45-34
+                                    3134562312
                                 </td>
                                 <td>
-                                    keilasti@hotmail.com
+                                    Calle 37 # 75-35
                                 </td>
                                 <td>
-                                    Mayorista
+                                    Javicito@hotmail.com
                                 </td>
                                 <td>
                                     <img src="/template/images/Activo.jpeg" style="width: 40px; height: 25px;">
                                 </td>
                                 <td>
-                                    300000
+                                    70000
                                 </td>
                                 <td>
-
-                                    <!-- Button trigger actualizar -->
-                                    <a href="./ActualizarProveedor.html"><button
-                                            class="mdi mdi-lead-pencil"></button></a>
-                                    <!-- Button trigger modal eliminar -->
-                                    <button type="button" class="mdi mdi-trash-can-outline" data-toggle="modal"
-                                        data-target="#ModalEliminar"></button>
-
-                                    <!-- Button trigger modalvisualizar facturas -->
-                                    <a href="./VisualizaFacturas.html"><button
-                                            class="mdi mdi-format-align-left"></button></a>
-
-
-
+                                    <a href="./ClienteMarcas.html"><button
+                                            class="mdi mdi-checkbox-multiple-blank"></button></a>
+                                    <a href="./ActualizarCliente.html"><button class="mdi mdi-lead-pencil"></button></a>
+                                    <a data-toggle="modal" data-target="#eliminar"><button
+                                            class="mdi mdi-trash-can-outline"></button></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    Lucia
+                                    Kely Valles
                                 </td>
                                 <td>
-                                    4530343
+                                    111666612
                                 </td>
                                 <td>
-                                    320874256
+                                    Natural
                                 </td>
                                 <td>
-                                    Cra 45-34 a 10
+                                    3059873425
                                 </td>
                                 <td>
-                                    Lucia@gmail.com
+                                    Carrera 79B#45-25
                                 </td>
                                 <td>
-                                    Mayorista
+                                    kelyjvales@hotmail.com
                                 </td>
                                 <td>
                                     <img src="/template/images/Inactivo.jpeg" style="width: 40px; height: 25px;">
@@ -323,19 +303,11 @@
                                     500000
                                 </td>
                                 <td>
-                                    <!-- Button trigger  actualizar -->
-                                    <a href="./ActualizarProveedor.html"><button
-                                            class="mdi mdi-lead-pencil"></button></a>
-
-                                    <!-- Button trigger modal eliminar -->
-                                    <button type="button" class="mdi mdi-trash-can-outline" data-toggle="modal"
-                                        data-target="#ModalEliminar"></button>
-
-
-                                    <!-- Button trigger modalvisualizar facturas -->
-                                    <button type="button" class="mdi mdi-format-align-left" data-toggle="modal"
-                                        data-target="#ModalVisualizar"></button>
-
+                                    <a href="./ClienteMarcas.html"><button
+                                            class="mdi mdi-checkbox-multiple-blank"></button></a>
+                                    <a href="./ActualizarCliente.html"><button class="mdi mdi-lead-pencil"></button></a>
+                                    <a data-toggle="modal" data-target="#eliminar"><button
+                                            class="mdi mdi-trash-can-outline"></button></a>
                                 </td>
                             </tr>
                         </tbody>
@@ -343,190 +315,93 @@
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <!-- Modal eliminar proveedor-->
-    <div class="modal fade" id="ModalEliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Proveedor</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <h4>¿Está seguro que desea eliminar el proveedor?</h4>
-
-                </div>
-                <div class="modal-footer">
-
-                    <a href="./Proveedores.html" class="btn btn-primary btn-lg active" role="button"
-                        aria-hidden="true">Si</a>
-                    <a href="//Pro" class="btn btn-primary btn-lg active" role="button" data-dismiss="modal">No</a>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal visualizar facturas proveedor-->
-    <div class="modal fade" id="ModalVisualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Facturas</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <button class="buscar">Buscar</button>
-                    <div class="table-responsive pt-3">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        N° Factura
-                                    </th>
-                                    <th>
-                                        Fecha
-                                    </th>
-                                    <th>
-                                        Método Pago
-                                    </th>
-                                    <th>
-                                        Estado
-                                    </th>
-                                    <th>
-                                        Acciones
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        0459
-                                    </td>
-                                    <td>
-                                        22/04/22
-                                    </td>
-                                    <td>
-                                        Contado
-                                    </td>
-                                    <td>
-                                        Pendiente
-                                    </td>
-                                    <td>
-
-                                        <!-- Button descargar factura -->
-                                        <button type="button" class="mdi mdi-file-download-outline"></button>
-
-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        0460
-                                    </td>
-                                    <td>
-                                        23/04/22
-                                    </td>
-                                    <td>
-                                        Contado
-                                    </td>
-                                    <td>
-                                        Pendiente
-                                    </td>
-                                    <td>
-
-                                        <!-- Button descargar factura -->
-                                        <button type="button" class="mdi mdi-file-download-outline"></button>
-
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+        <div class="modal fade" id="registrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Registrar Usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="contact.php" method="post">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Nombre</label>
+                                                <input type="text" class="form-control" placeholder="Kevin Velasquez">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Cédula</label>
+                                                <input type="number" class="form-control" placeholder="112562298">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Correo</label>
+                                                <input type="email" class="form-control"
+                                                    placeholder="kevin@misena.edu.co">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlSelect1">Rol</label>
+                                                <select class="form-control">
+                                                    <option value="">Administrador</option>
+                                                    <option value="">Empleado</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlSelect1">Estado</label>
+                                                <select class="form-control">
+                                                    <option value="">Activo</option>
+                                                    <option value="">Inactivo</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleFormControlInput1">Contraseña</label>
+                                                <input type="none" class="form-control" placeholder="Sin modificación">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="./Usuarios.html" class="btn btn-primary btn-lg active" role="button"
+                            aria-pressed="true">Registrar</a>
+                        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Limpiar</a>
+                        <a href="./Usuarios.html" class="btn btn-primary btn-lg active" role="button"
+                            data-dismiss="modal">Cancelar</a>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <span>Página 1 ..... 6</span>
+            </div>
+        </div>
+        <div class="modal fade" id="eliminar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Cliente</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Está seguro que desea eliminar el Cliente?
+                    </div>
+                    <div class="modal-footer">
+                        <a href="./Clientes.html" class="btn btn-primary btn-lg active" role="button"
+                            aria-hidden="true">Si</a>
+                        <a href="./Clientes.html" class="btn btn-primary btn-lg active" role="button"
+                            data-dismiss="modal">No</a>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Modal confirmar registro proveedor-->
-    <div class="modal fade" id="Modalconfirmarregistro" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <h4>Se ha registrado el proveedor con éxito</h4>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal confirma actualizar proveedor-->
-    <div class="modal fade" id="Modalconfirmaactualizar" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <h4>Se ha actualizado el proveedor con éxito</h4>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal  proveedor eliminado -->
-    <div class="modal fade" id="Modalproveedoreliminado" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-dialog-centered modal-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle"></h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <h4>Se ha eliminado el proveedor con éxito</h4>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
     <!-- content-wrapper ends -->
     <!-- partial:partials/_footer.html -->
     <footer class="footer">
