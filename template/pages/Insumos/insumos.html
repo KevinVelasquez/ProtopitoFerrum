@@ -27,7 +27,8 @@
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo" href="index.html"><img src="/template/images/LOGO LAS MARCAS TINTO-1.png"
             alt="logo" id="logo"></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/template/images/logo-mini.svg" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/template/images/logo-mini.svg"
+            alt="logo" /></a>
         <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button"
           data-toggle="minimize">
           <span class="typcn typcn-th-menu"></span>
@@ -152,7 +153,8 @@
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column ">
                 <li class="nav-item"><a class="nav-link" href="#">Clientes</a></li>
-                <li class="nav-item"><a class="nav-link" href="/template/pages/productos/productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/template/pages/productos/productos.html">Productos</a>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="#">Pedidos</a></li>
               </ul>
             </div>
@@ -183,7 +185,8 @@
         <div class="row w-100">
           <div class="col-sm-8">
             <div class="iconoInicial">
-              <i class="mdi mdi-plus-circle-multiple-outline" id="iconoadd" data-toggle="modal" data-target="#crearInsumo"></i>
+              <i class="mdi mdi-plus-circle-multiple-outline" id="iconoadd" data-toggle="modal"
+                data-target="#crearInsumo"></i>
             </div>
           </div>
           <div class="col-sm-4">
@@ -213,7 +216,7 @@
             <tbody>
               <tr>
                 <td>
-                 Varilla Acero 1/2
+                  Varilla Acero 1/2
                 </td>
                 <td>
                   Metros
@@ -226,14 +229,14 @@
               </tr>
               <tr>
                 <td>
-                 Platina 3/16
+                  Platina 3/16
                 </td>
                 <td>
-                Metros
+                  Metros
                 </td>
                 <td>
-                    <button class="mdi mdi-lead-pencil" data-toggle="modal" data-target="#editarInsumo"></button>
-                    <button class="mdi mdi-trash-can-outline" data-toggle="modal" data-target="#eliminarInsumo"></button>
+                  <button class="mdi mdi-lead-pencil" data-toggle="modal" data-target="#editarInsumo"></button>
+                  <button class="mdi mdi-trash-can-outline" data-toggle="modal" data-target="#eliminarInsumo"></button>
                   <img src="/template/images/ocupada.png" style="width: 40px; height: 25px;">
                 </td>
               </tr>
@@ -245,17 +248,17 @@
   </div>
 
   <div class="modal fade" id="crearInsumo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Registrar Insumo </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Registrar Insumo </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group row">
@@ -265,12 +268,12 @@
                   </div>
                 </div>
 
-                <div class="form-group row" >
+                <div class="form-group row">
                   <div class="col-sm-9">
                     <label id="labelrol">Medidas</label>
                     <select name="selector" class="selector">
                       <option value="value1" selected>Metros</option>
-                      <option value="value2" >Centimetros</option>
+                      <option value="value2">Centimetros</option>
                     </select>
                   </div>
                 </div>
@@ -278,28 +281,27 @@
               </div>
             </div>
           </form>
-        <div class="modal-footer">
-          <a href="" class="btn btn-primary btn-lg active" role="button"
-            aria-pressed="true">Registrar</a>
-          <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Registrar</a>
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal fade" id="editarInsumo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Actualizar Insumo </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
+  <div class="modal fade" id="editarInsumo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Actualizar Insumo </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
             <div class="row">
               <div class="col-md-6">
                 <div class="form-group row">
@@ -309,12 +311,12 @@
                   </div>
                 </div>
 
-                <div class="form-group row" >
+                <div class="form-group row">
                   <div class="col-sm-9">
                     <label id="labelrol">Medidas</label>
                     <select name="selector" class="selector">
                       <option value="value1" selected>Metros</option>
-                      <option value="value2" >Centimetros</option>
+                      <option value="value2">Centimetros</option>
                     </select>
                   </div>
                 </div>
@@ -322,49 +324,47 @@
               </div>
             </div>
           </form>
-        <div class="modal-footer">
-            <a href="" class="btn btn-primary btn-lg active" role="button"
-              aria-pressed="true">Actualizar</a>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Actualizar</a>
             <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
           </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-</div>
+  </div>
 
 
-<div class="modal fade" id="eliminarInsumo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Insumo </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
-          <div class="row">
-            <div>
-              <h4 class="mensajeRol">¿Está seguro de que desea eliminar el Insumo?</h4>
+  <div class="modal fade" id="eliminarInsumo" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Insumo </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
+            <div class="row">
+              <div>
+                <h4 class="mensajeRol">¿Está seguro de que desea eliminar el Insumo?</h4>
+              </div>
             </div>
-          </div>
-        </form>
-        <div class="modal-footer">
-            <a href="" class="btn btn-primary btn-lg active" role="button"
-              aria-pressed="true">Si</a>
+          </form>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Si</a>
             <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">No</a>
           </div>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
+  </div>
+  </div>
   <!-- content-wrapper ends -->
   <!-- partial:partials/_footer.html -->
   <footer class="footer">

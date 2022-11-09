@@ -27,7 +27,8 @@
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo" href="index.html"><img src="/template/images/LOGO LAS MARCAS TINTO-1.png"
             alt="logo" id="logo"></a>
-        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/template/images/logo-mini.svg" alt="logo" /></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="/template/images/logo-mini.svg"
+            alt="logo" /></a>
         <button class="navbar-toggler navbar-toggler align-self-center d-none d-lg-flex" type="button"
           data-toggle="minimize">
           <span class="typcn typcn-th-menu"></span>
@@ -152,7 +153,8 @@
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column ">
                 <li class="nav-item"><a class="nav-link" href="#">Clientes</a></li>
-                <li class="nav-item"><a class="nav-link" href="/template/pages/productos/productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/template/pages/productos/productos.html">Productos</a>
+                </li>
                 <li class="nav-item"><a class="nav-link" href="#">Pedidos</a></li>
               </ul>
             </div>
@@ -183,7 +185,8 @@
         <div class="row w-100">
           <div class="col-sm-8">
             <div class="iconoInicial">
-              <i class="mdi mdi-account-multiple-plus-outline" id="iconoadd" data-toggle="modal" data-target="#crearRol"></i>
+              <i class="mdi mdi-account-multiple-plus-outline" id="iconoadd" data-toggle="modal"
+                data-target="#crearRol"></i>
             </div>
           </div>
           <div class="col-sm-4">
@@ -219,7 +222,8 @@
                   Administrador
                 </td>
                 <td>
-                  <a href="/template/pages/configuracion/permisos.html"><button class="mdi mdi-format-align-justify"></button></a>
+                  <a href="/template/pages/configuracion/permisos.html"><button
+                      class="mdi mdi-format-align-justify"></button></a>
                   <button class="mdi mdi-lead-pencil" data-toggle="modal" data-target="#editarRol"></button>
                   <button class="mdi mdi-trash-can-outline" data-toggle="modal" data-target="#eliminarRol"></button>
                   <img src="/template/images/disponible.png" style="width: 40px; height: 25px;">
@@ -233,7 +237,8 @@
                   Empleado
                 </td>
                 <td>
-                  <a href="/template/pages/configuracion/permisos.html"><button class="mdi mdi-format-align-justify"></button></a>
+                  <a href="/template/pages/configuracion/permisos.html"><button
+                      class="mdi mdi-format-align-justify"></button></a>
                   <button class="mdi mdi-lead-pencil" data-toggle="modal" data-target="#editarRol"></button>
                   <button class="mdi mdi-trash-can-outline" data-toggle="modal" data-target="#eliminarRol"></button>
                   <img src="/template/images/ocupada.png" style="width: 40px; height: 25px;">
@@ -247,104 +252,101 @@
   </div>
 
   <div class="modal fade" id="crearRol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Crear Rol </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group row">
-                <label id="labelrol">Nuevo Rol</label>
-                <div class="col-sm-9">
-                  <input type="text" class="form-control" id="inputrol">
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Crear Rol </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group row">
+                  <label id="labelrol">Nuevo Rol</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="inputrol">
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </form>
-        <div class="modal-footer">
-          <a href="" class="btn btn-primary btn-lg active" role="button"
-            aria-pressed="true">Crear</a>
-          <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="editarRol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Actualizar Rol </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form-group row">
-                <div class="col-sm-9">
-                  <label id="labelrol">Actualizar Rol</label>
-                  <input type="text" class="form-control" id="inputrol" placeholder="Administrador">
-                </div>
-              </div>
-            </div>
-        </div>
-        </form>
-        <div class="modal-footer">
-            <a href="" class="btn btn-primary btn-lg active" role="button"
-              aria-pressed="true">Actualizar</a>
+          </form>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Crear</a>
             <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
           </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-</div>
-
-
-<div class="modal fade" id="eliminarRol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Rol </h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="form-sample">
-          <div class="row">
-            <div>
-              <h4 class="mensajeRol">¿Está seguro de que desea eliminar el rol?</h4>
+  <div class="modal fade" id="editarRol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Actualizar Rol </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group row">
+                  <div class="col-sm-9">
+                    <label id="labelrol">Actualizar Rol</label>
+                    <input type="text" class="form-control" id="inputrol" placeholder="Administrador">
+                  </div>
+                </div>
+              </div>
             </div>
+          </form>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Actualizar</a>
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Cancelar</a>
           </div>
-        </form>
-        <div class="modal-footer">
-            <a href="" class="btn btn-primary btn-lg active" role="button"
-              aria-pressed="true">Si</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+  <div class="modal fade" id="eliminarRol" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Eliminar Rol </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="form-sample">
+            <div class="row">
+              <div>
+                <h4 class="mensajeRol">¿Está seguro de que desea eliminar el rol?</h4>
+              </div>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Si</a>
             <a href="" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">No</a>
           </div>
 
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
+  </div>
+  </div>
   <!-- content-wrapper ends -->
   <!-- partial:partials/_footer.html -->
   <footer class="footer">
