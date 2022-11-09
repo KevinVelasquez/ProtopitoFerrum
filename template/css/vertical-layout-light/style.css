@@ -10523,7 +10523,7 @@ textarea.tt-hint {
 }
 
 .form-check {
-  position: relative;
+  position: initial;
   display: block;
   padding-left: 1.25rem;
 }
@@ -25507,6 +25507,7 @@ font-size: large;
   color: white;
 }
 
+
 /*Cathe*/
 #labelrol{
   height: 50px;
@@ -25551,7 +25552,8 @@ font-size: large;
   height: 37%;
 }
 
-.grid-container{
-  grid-template-columns: auto auto auto;
+
+#resumentabla{
+  margin-bottom: 0%;
 }
-/*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
