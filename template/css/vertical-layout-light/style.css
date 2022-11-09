@@ -10523,7 +10523,7 @@ textarea.tt-hint {
 }
 
 .form-check {
-  position: relative;
+  position: initial;
   display: block;
   padding-left: 1.25rem;
 }
@@ -25506,11 +25506,58 @@ font-size: large;
 .close{
   color: white;
 }
-/*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
+
+
+/*Cathe*/
+#labelrol{
+  height: 50px;
+  margin-left: 42%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#inputrol{
+  margin-top: -10px;
+  margin-bottom: 20%;
+  margin-left: 40%;
+  width: 200%;
+}
+
+.permisosformu{
+  margin-top: 3%;
+  margin-left: -20%;
+} 
+
+.contenedorPermisos{
+  margin-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-right: 20%;
+  padding-left: 10%;
+  width: 100%;
+}
+
+
+.mensajeRol{
+  width: 500%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
+
+.selector{
+  margin-top: -40px;
+  margin-left: 40%;
+  width: 200%;
+  margin-bottom: 53px;
+  height: 37%;
+}
+
+
 #resumentabla{
   margin-bottom: 0%;
 }
 
+<<<<<<< HEAD
 /*css calendario*/
 
 .calendar-day {
@@ -25598,3 +25645,22 @@ font-size: large;
   padding-top: 0;
   padding-bottom: 0;
 }
+=======
+
+.videoayuda{
+  width: 50%;
+}
+.col-sm{
+text-align: center;
+}
+#tituloinicial{
+  margin-left: 40%;
+  width: 30%;
+  color: white;
+}
+
+.content-wrapper {
+  flex-grow:0;
+}
+
+>>>>>>> dff02cdc1af1d805a097da848d5d42b6bef6d53c
