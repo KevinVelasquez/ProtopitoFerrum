@@ -10523,7 +10523,7 @@ textarea.tt-hint {
 }
 
 .form-check {
-  position: relative;
+  position: initial;
   display: block;
   padding-left: 1.25rem;
 }
@@ -25506,7 +25506,6 @@ font-size: large;
 .close{
   color: white;
 }
-/*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
 #resumentabla{
   margin-bottom: 0%;
 }
